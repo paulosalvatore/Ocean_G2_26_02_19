@@ -5,10 +5,11 @@ using UnityEngine;
 public class Canos : MonoBehaviour {
 
 	public float velocidade = 2f;
+	public float delayDestruir = 2f;
 
 	// Use this for initialization
 	void Start () {
-		
+		Destroy(gameObject, delayDestruir);
 	}
 	
 	// Update is called once per frame
